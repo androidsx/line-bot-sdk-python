@@ -16,7 +16,7 @@ from linebot.requests import Request
 from linebot.users import UserProfile
 
 
-class LineBotClient():
+class LineBotClient(object):
     def __init__(
         self,
         api_base_url=constants.API_URL_BASE,
